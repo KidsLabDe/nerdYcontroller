@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name "pi-pico")(type "KiCad")(uri "/home/user/kidslab-lamp/KiCad-RP-Pico/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.kicad_sym")(options "")(descr ""))
+  (lib (name "kidslab")(type "KiCad")(uri "/home/user/kidslab-lamp/symbols/kidslab.kicad_sym")(options "")(descr ""))
 )
