@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg211"
+   inkscape:version="1.1.2 (b8e25be8, 2022-02-05)"
+   sodipodi:docname="Glühbirne.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview213"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.33"
+     inkscape:cx="175.93985"
+     inkscape:cy="483.08271"
+     inkscape:window-width="1383"
+     inkscape:window-height="969"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g546" />
+  <defs
+     id="defs208" />
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g546"
+       transform="translate(-5.3699583,-5.3699583)">
+      <path
+         d="M 117.66967,116.74413 C 117.65588,103.05212 112.08591,89.952417 102.23565,80.443292 92.73146,71.193812 80.03393,65.949064 66.7709,65.79737 53.508568,65.644409 40.694268,70.593031 30.978062,79.622025 21.261504,88.65102 15.387048,101.06845 14.568251,114.30573 c -0.660082,14.27374 4.718403,28.16719 14.816667,38.27639 9.723261,9.72326 11.79195,13.1191 11.79195,27.07146 v 0.18466 c -1.180994,0.4258 -1.985751,1.5241 -2.036727,2.77812 v 15.8048 c 0.0096,1.97887 0.553967,3.91901 1.576493,5.61411 1.021115,1.69499 2.481862,3.08268 4.226278,4.01708 1.605421,6.4202 10.310636,11.17459 21.144798,11.17459 10.83415,0 19.5393,-4.72405 21.0827,-11.14425 1.74184,-0.93568 3.19705,-2.32474 4.21393,-4.01991 1.01561,-1.69499 1.55441,-3.63396 1.55858,-5.61128 v -15.80339 c -0.0469,-1.24714 -0.83785,-2.34265 -2.00643,-2.77812 0,-13.3036 1.75976,-17.19368 11.79195,-27.25632 v -0.001 c 9.57333,-9.47808 14.95319,-22.39574 14.93943,-35.86692 z"
+         id="path50"
+         style="stroke-width:0.352778"
+         sodipodi:nodetypes="ccccccscccccsccccccccc" />
+    </g>
+  </g>
+</svg>
