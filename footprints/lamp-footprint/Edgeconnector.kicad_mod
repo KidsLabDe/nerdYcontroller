@@ -11,20 +11,7 @@
     (tstamp fb93df6f-d49a-4cee-b232-3b2e2aea66ea)
   )
   (fp_line (start 0 0) (end 33 0) (layer "Dwgs.User") (width 0.12) (tstamp 76c2e976-0a27-4538-9dad-4db5115c6aae))
-  (pad "1" thru_hole circle (at 0 0) (size 6 6) (drill 3.175) (layers *.Cu *.Mask)
-    (zone_connect 2) (tstamp 224e912a-b154-4290-8791-98fc6d9355e3))
-  (pad "1" smd custom (at 0 0) (size 6 6) (layers "B.Cu" "B.Mask")
-    (zone_connect 2)
-    (options (clearance outline) (anchor circle))
-    (primitives
-      (gr_poly (pts
-          (xy 6.5 -3)
-          (xy 0 -3)
-          (xy 0 3)
-          (xy 6.5 3)
-        ) (width 0) (fill yes))
-    ) (tstamp 284170f2-e4b0-4d98-adf1-b3fbc78068e7))
-  (pad "1" smd custom (at 0 0) (size 6 6) (layers "F.Cu" "F.Mask")
+  (pad "1" thru_hole custom (at -0.1 0) (size 6 6) (drill 3.17) (property pad_prop_castellated) (layers *.Cu *.Mask)
     (zone_connect 2)
     (options (clearance outline) (anchor circle))
     (primitives
@@ -34,5 +21,5 @@
           (xy 0 -3)
           (xy 6.5 -3)
         ) (width 0) (fill yes))
-    ) (tstamp 6fa9651d-7c3c-4cb6-a10a-df3d7860259c))
+    ) (tstamp 3def26c2-08c6-4673-afb7-65ef6042041f))
 )
