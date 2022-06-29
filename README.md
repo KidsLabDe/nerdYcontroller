@@ -1,6 +1,6 @@
 # “Glübirne” Platine KidsLab
 
-[Glühbirne-v1](https://user-images.githubusercontent.com/4609107/176489938-8d871bcb-3e5d-4d0d-94f8-4a521e3b5f6b.jpg)
+![Glühbirne-v1](https://user-images.githubusercontent.com/4609107/176489938-8d871bcb-3e5d-4d0d-94f8-4a521e3b5f6b.jpg)
 
 ## Idee & Ziel
 - Break-Out Platine um einen Raspi Pico 
