@@ -1,11 +1,15 @@
 # “Glübirne” Platine KidsLab
+
+[Glühbirne-v1](https://user-images.githubusercontent.com/4609107/176489938-8d871bcb-3e5d-4d0d-94f8-4a521e3b5f6b.jpg)
+
 ## Idee & Ziel
 - Break-Out Platine um einen Raspi Pico 
 - Anschlüsse für Krokoklemmen:
   - 4 Richtungen
   -BreakOut für X Pins… für Krokoklemmen  
 ### Optional:
-- NeoPixel Pad? -> in Birne des Logos - https://www.adafruit.com/product/1655
+- NeoPixel Pad? -> in!
+ Birne des Logos - https://www.adafruit.com/product/1655
 - Groove Connector? 
 https://www.reichelt.de/arduino-grove-universal-buchse-4-pin-90-10er-pack--grv-connec4pin90-p191136.html?PROVID=2788&gclid=Cj0KCQjwyYKUBhDJARIsAMj9lkEbQ2QEuekYqLwdUHhttzF_SCXq7cXSdSxhw86hNk7YBXZWY8Fj3KIaAnRfEALw_wcB
 
