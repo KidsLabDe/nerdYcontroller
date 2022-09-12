@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "6.0.5-a6ca702e91~116~ubuntu20.04.1"
+      "Version": "6.0.2+dfsg-1"
     },
-    "CreationDate": "2022-05-23T12:48:00+02:00"
+    "CreationDate": "2022-09-12T11:49:15+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -24,8 +24,8 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.2,
-      "PadToTrack": 0.2,
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
       "TrackToTrack": 0.2,
       "MinLineWidth": 1.0,
       "TrackToRegion": 0.508,
@@ -34,47 +34,47 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "kidslab-lamp-F_Cu.gbr",
+      "Path": "kidslab-lamp-F_Cu.gtl",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "kidslab-lamp-B_Cu.gbr",
+      "Path": "kidslab-lamp-B_Cu.gbl",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "kidslab-lamp-F_Paste.gbr",
+      "Path": "kidslab-lamp-F_Paste.gtp",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "kidslab-lamp-B_Paste.gbr",
+      "Path": "kidslab-lamp-B_Paste.gbp",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "kidslab-lamp-F_Silkscreen.gbr",
+      "Path": "kidslab-lamp-F_Silkscreen.gto",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "kidslab-lamp-B_Silkscreen.gbr",
+      "Path": "kidslab-lamp-B_Silkscreen.gbo",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "kidslab-lamp-F_Mask.gbr",
+      "Path": "kidslab-lamp-F_Mask.gts",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "kidslab-lamp-B_Mask.gbr",
+      "Path": "kidslab-lamp-B_Mask.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "kidslab-lamp-Edge_Cuts.gbr",
+      "Path": "kidslab-lamp-Edge_Cuts.gm1",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }

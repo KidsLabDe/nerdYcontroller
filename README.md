@@ -32,6 +32,10 @@ https://easyeda.com/editor#id=83578dd692994595a69770e8e2316d5d
 
 https://easyeda.com/editor#id=dceb6abca31347efb49af072a26749ad
 
+### Generate Gerber files for JLCPCB
+
+https://support.jlcpcb.com/article/149-how-to-generate-gerber-and-drill-files-in-kicad
+
 
 
 
