@@ -8,7 +8,7 @@ Daher haben wir mit der PicoKrokoBirne einen Lautstärkemesser erfunden, der aut
 
 ## Was brauchst Du?
 
-![lautstaerke_1](/Users/kingbbq/src/PicoKrokoBirne/examples/lautstaerke_1.jpg)
+![lautstaerke_1](lautstaerke_1.jpg)
 
 ### Material
 
@@ -21,9 +21,9 @@ Daher haben wir mit der PicoKrokoBirne einen Lautstärkemesser erfunden, der aut
 
 Bastel Dir aus den Krokoklemmen und JumperKabel die passenden Adapter, um das Lautstärke-Modul an die PicoKrokoBirne anzuschließen:
 
-![kabel-1](/Users/kingbbq/src/PicoKrokoBirne/examples/kabel-1.jpg)
+![kabel-1](kabel-1.jpg)
 
-![kabel-2](/Users/kingbbq/src/PicoKrokoBirne/examples/kabel-2.jpg)
+![kabel-2](kabel-2.jpg)
 
 
 
@@ -35,7 +35,7 @@ Bastel Dir aus den Krokoklemmen und JumperKabel die passenden Adapter, um das La
 - "G" kommt auf GND
 - D0 kommt auf einen digitalen Eingang, zum Beispiel GPIO0 
 
-![lautstaerke_2](/Users/kingbbq/src/PicoKrokoBirne/examples/lautstaerke_2.jpg)
+![lautstaerke_2](lautstaerke_2.jpg)
 
 
 
