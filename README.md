@@ -1,3 +1,17 @@
+# Kontaktdaten
+
+Du hast die Glühbirne als Visitenkarte bekommen? Sehr gut! 
+
+Meine Kontaktdaten:
+
+- Gregor Walter
+- [gregor@kidslab.de](mailto:gregor@kidslab.de)
+- Tel. / WhatsApp: 0821-58920484
+- Mehr Infos über das gemeinnützige [KidsLab](https://kidslab.de) 
+
+
+Ich freue mich auf denen Anruf / eMail / Nachricht 🤖
+
 # “Glübirne” Platine KidsLab
 
 ![Glühbirne-v1](https://user-images.githubusercontent.com/4609107/176489938-8d871bcb-3e5d-4d0d-94f8-4a521e3b5f6b.jpg)
