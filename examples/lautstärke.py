@@ -6,6 +6,25 @@ from board import *
 from digitalio import DigitalInOut, Direction, Pull
 
 
+import usb_hid
+from adafruit_hid.keyboard import Keyboard
+from keyboard_layout_win_de import KeyboardLayout
+from adafruit_hid.keycode import Keycode
+
+keyboard = Keyboard(usb_hid.devices)
+layout = KeyboardLayout(keyboard)
+
+
+# workaround: diffirent local keyboard layout...
+import conversion_dvorak
+
+
+def typeIt(string):
+        string = conversion_dvorak.convert_ascii_dvorak(string)
+        string += "\n"
+        layout.write(string)
+
+
 
 
 from rainbowio import colorwheel
@@ -33,7 +52,7 @@ while True:
     for x in range(100000):
         if switch.value:
             noiseLevel = noiseLevel +1
-    
+
     print("noiseLevel: ",noiseLevel)
 
 
@@ -45,6 +64,7 @@ while True:
         pixels.fill(RED)
     else:
         pixels.fill(PURPLE)
-    
-    pixels.show()       
-    
+        typeIt("t/setblock 20 18 13 redstone_block")
+
+    pixels.show()
+
