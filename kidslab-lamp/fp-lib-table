@@ -1,5 +1,6 @@
 (fp_lib_table
-  (lib (name "pi-pico")(type "KiCad")(uri "/home/user/kidslab-lamp/footprints/KiCad-RP-Pico/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.pretty")(options "")(descr ""))
-  (lib (name "kidslab")(type "KiCad")(uri "/home/vinc/projects/PicoKrokoBirne/footprints/lamp-footprint")(options "")(descr ""))
-  (lib (name "pi-pico-mcu")(type "KiCad")(uri "/home/user/kidslab-lamp/footprints/FootprintsFrisbee/RP_Silicon_KiCad-main/KiCadLibraries/MCU_RaspberryPi_and_Boards.pretty")(options "")(descr ""))
+  (version 7)
+  (lib (name "pi-pico")(type "KiCad")(uri "${KIPRJMOD}/KiCad-RP-Pico/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.pretty")(options "")(descr ""))
+  (lib (name "kidslab")(type "KiCad")(uri "${KIPRJMOD}/footprints/lamp-footprint")(options "")(descr ""))
+  (lib (name "pi-pico-mcu")(type "KiCad")(uri "${KIPRJMOD}/footprints/FootprintsFrisbee/RP_Silicon_KiCad-main/KiCadLibraries/MCU_RaspberryPi_and_Boards.pretty")(options "")(descr ""))
 )
