@@ -1,4 +1,4 @@
-18685685482906
+20384799903309
 kidslab
 114020163
 
@@ -41,6 +41,13 @@ Kroko_Arrow
 0
 3
 1
+kidslab
+LED_WS
+3.5mm x 3.5mm PLCC4 Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf
+LED RGB NeoPixel Mini PLCC-4 3535
+0
+4
+4
 kidslab
 WS2812B-Mini
 3.5mm x 3.5mm PLCC4 Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf
