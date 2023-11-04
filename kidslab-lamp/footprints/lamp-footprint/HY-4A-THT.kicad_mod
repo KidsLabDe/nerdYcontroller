@@ -49,4 +49,9 @@
   (pad "2" thru_hole circle (at -1 0) (size 1.5 1.5) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 2d0ff8e4-54f6-4fa7-ad1a-1d32423dea3a))
   (pad "3" thru_hole circle (at 1 0) (size 1.5 1.5) (drill 1) (layers "*.Cu" "*.Mask") (tstamp fd4d32e1-2d90-4c0a-baef-cbb676ee15ee))
   (pad "4" thru_hole circle (at 3 0) (size 1.5 1.5) (drill 1) (layers "*.Cu" "*.Mask") (tstamp dd88ae55-61b6-4aed-8ddc-a31386e6b517))
+  (model "${KIPRJMOD}/3D/Grove Connector.STEP"
+    (offset (xyz -5 -3 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
