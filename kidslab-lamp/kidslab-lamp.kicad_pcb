@@ -3045,8 +3045,9 @@
     (tags "Through hole pin header THT 1x03 2.54mm single row")
     (property "Sheetfile" "components-sheet.kicad_sch")
     (property "Sheetname" "Components")
+    (property "exclude_from_bom" "")
     (path "/fe3cb29b-5b2e-4797-a46c-7df643663d6c/76dafd59-8b24-46c8-851d-6f3010eed81d")
-    (attr through_hole exclude_from_pos_files)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J3" (at 0 -2.33 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 335ee547-d3db-4644-835c-851c26e26d56)
@@ -4256,8 +4257,9 @@
     (tags "Through hole pin header THT 1x03 2.54mm single row")
     (property "Sheetfile" "components-sheet.kicad_sch")
     (property "Sheetname" "Components")
+    (property "exclude_from_bom" "")
     (path "/fe3cb29b-5b2e-4797-a46c-7df643663d6c/2be59594-737f-4252-96f6-1383a258672b")
-    (attr through_hole exclude_from_pos_files)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J2" (at 0 -2.33 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6e559c5d-c78b-473a-b6c9-21a1cd5fae0e)
