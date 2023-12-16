@@ -56,7 +56,23 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "lib_footprint_mismatch|149638000|65669000|16d007cc-97fe-40e8-a8a7-a68e21e47e87|00000000-0000-0000-0000-000000000000",
+        "missing_courtyard|149938000|82287721|0d75526f-315e-4f9f-8178-bd165722bb11|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|130200045|115419041|ac880930-e4be-4561-ac76-d4966da5254f|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|139285816|112866670|7f59ff3f-588b-40d6-b969-bc271e3f8df5|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|141086592|160055519|8301d8c2-1bb3-497f-881f-355fd2521164|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|149448713|116864000|c4e6104c-56fb-4ed9-a193-2573a5008aff|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|161650319|112024000|4c6a0ea2-215a-490b-9e8d-608c4f198cea|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|170937451|115663513|8cbc06bc-c7ec-458d-822a-b3571bb0043c|00000000-0000-0000-0000-000000000000",
+        "silk_overlap|132098983|120654000|8301d8c2-1bb3-497f-881f-355fd2521164|ac880930-e4be-4561-ac76-d4966da5254f",
+        "silk_overlap|137617122|120654000|8301d8c2-1bb3-497f-881f-355fd2521164|224fa9e5-e4fc-421b-b5fc-ee3341b43ae2",
+        "silk_overlap|145254791|120654000|7f59ff3f-588b-40d6-b969-bc271e3f8df5|8301d8c2-1bb3-497f-881f-355fd2521164",
+        "silk_overlap|148570560|121182110|c4e6104c-56fb-4ed9-a193-2573a5008aff|8301d8c2-1bb3-497f-881f-355fd2521164",
+        "silk_overlap|155200537|120654000|8301d8c2-1bb3-497f-881f-355fd2521164|4c6a0ea2-215a-490b-9e8d-608c4f198cea",
+        "silk_overlap|161457588|120654000|43181b51-725b-4fa3-b7f6-3e9826c5c4c8|8301d8c2-1bb3-497f-881f-355fd2521164",
+        "silk_overlap|168695195|120665268|8cbc06bc-c7ec-458d-822a-b3571bb0043c|8301d8c2-1bb3-497f-881f-355fd2521164"
+      ],
       "meta": {
         "version": 2
       },
@@ -493,7 +509,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "./../",
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
