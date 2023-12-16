@@ -1506,7 +1506,7 @@
   )
 
   (symbol (lib_name "pin_header_1x3_1") (lib_id "kidslab:pin_header_1x3") (at 127 105.41 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 2be59594-737f-4252-96f6-1383a258672b)
     (property "Reference" "C1" (at 127 100.33 90)
       (effects (font (size 1.27 1.27)))
@@ -2088,7 +2088,7 @@
   )
 
   (symbol (lib_id "kidslab:pin_header_1x3") (at 163.83 105.41 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 76dafd59-8b24-46c8-851d-6f3010eed81d)
     (property "Reference" "C3" (at 163.83 100.33 90)
       (effects (font (size 1.27 1.27)))
