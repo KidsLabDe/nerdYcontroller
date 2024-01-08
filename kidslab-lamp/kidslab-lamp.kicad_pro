@@ -212,11 +212,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "pin_to_pin|1016000|393700|ffd6d535-070e-45de-a64a-43b10504465e|411e9d85-4dd3-432c-92db-6a00df51056c|/3a714d6a-4fcb-43e8-9668-1af7c84d4f32|/3a714d6a-4fcb-43e8-9668-1af7c84d4f32|/3a714d6a-4fcb-43e8-9668-1af7c84d4f32",
-      "pin_to_pin|2362200|1511300|411e9d85-4dd3-432c-92db-6a00df51056c|78b9f5e4-118c-4b5d-8c61-16a36341ecc9|/3a714d6a-4fcb-43e8-9668-1af7c84d4f32|/3a714d6a-4fcb-43e8-9668-1af7c84d4f32|/3a714d6a-4fcb-43e8-9668-1af7c84d4f32/fe3cb29b-5b2e-4797-a46c-7df643663d6c",
-      "pin_to_pin|2362200|1511300|411e9d85-4dd3-432c-92db-6a00df51056c|b2585fe2-8737-4810-8758-4c3e240d23fe|/3a714d6a-4fcb-43e8-9668-1af7c84d4f32|/3a714d6a-4fcb-43e8-9668-1af7c84d4f32|/3a714d6a-4fcb-43e8-9668-1af7c84d4f32/fe3cb29b-5b2e-4797-a46c-7df643663d6c"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
