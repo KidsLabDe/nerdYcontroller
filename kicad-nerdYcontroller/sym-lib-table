@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "kidslab")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/kidslab.kicad_sym")(options "")(descr ""))
+)
