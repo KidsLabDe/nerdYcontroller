@@ -1,4 +1,4 @@
-23772630996238892
+23800338440951992
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96425,9 +96425,121 @@ Varistor VF
 2
 2
 kidslab
+DoubleEdge
+
+
+0
+2
+1
+kidslab
+Edgeconnector
+
+
+0
+1
+1
+kidslab
+FUET-5020
+
+
+0
+3
+3
+kidslab
+Gamecontroller Outline
+
+
+0
+0
+0
+kidslab
+IPTG
+
+
+0
+4
+1
+kidslab
+JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal
+JST PH series connector, S2B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
+connector JST PH horizontal
+0
+4
+3
+kidslab
+KrokoConnector
+
+
+0
+2
+1
+kidslab
+Kroko_Arrow
+
+
+0
+2
+1
+kidslab
+LED_WS2812B-2020_PLCC4_2.0x2.0mm
+2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf
+LED RGB NeoPixel Nano PLCC-4 2020
+0
+4
+4
+kidslab
+LMA3722T421-OA5
+
+
+0
+4
+4
+kidslab
+PinHeader_2x03_P2.54mm_Vertical_SMD
+surface-mounted straight pin header, 2x03, 2.54mm pitch, double rows
+Surface mounted pin header SMD 2x03 2.54mm double row
+0
+6
+6
+kidslab
+SAMTEC_HLE-115-02-F-DV
+
+
+0
+60
+30
+kidslab
+SOIC-8_5.23x5.23mm_P1.27mm
+SOIC, 8 Pin (http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf#page=68), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+8
+8
+kidslab
 SW_TS-1187A-B-A-B
 
 
 0
 4
 4
+kidslab
+USB_C_Receptacle_G-Switch_GT-USB-7010ASV
+USB Type C, right-angle, SMT, https://datasheet.lcsc.com/lcsc/2204071530_G-Switch-GT-USB-7010ASV_C2988369.pdf
+USB C Type-C Receptacle SMD
+0
+20
+17
+kidslab
+USB_C_Receptacle_GCT_USB4110
+USB 2.0 Type C Receptacle, GCT, 16P, top mounted, horizontal, 5A, https://gct.co/files/drawings/usb4110.pdf
+USB 2.0 C Type-C Receptacle SMD 16P 16C USB4110-GF-A
+0
+20
+17
+kidslab
+ZX-HY2.0-4PLT
+
+
+0
+6
+5

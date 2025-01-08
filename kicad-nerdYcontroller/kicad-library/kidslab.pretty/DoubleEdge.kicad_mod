@@ -1,0 +1,172 @@
+(footprint "DoubleEdge"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -5.75 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f9bcec5d-d337-40d8-a5d4-86a24a8d268e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Edgeconnector_SMD_version"
+		(at 6.1 -4.8 0)
+		(layer "F.Fab")
+		(uuid "fb93df6f-d49a-4cee-b232-3b2e2aea66ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "172f1019-d0f8-4a1f-a3c1-8426e0d55a8b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6911dcca-1c09-44f9-b5b1-a47e653120d1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0106eb73-5fd8-4f4d-9444-bf92eedefe91")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start 7 -4)
+		(end 0 -4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "61026243-521f-44e9-845d-1d76a28238f5")
+	)
+	(fp_line
+		(start 7 -4)
+		(end 7 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "243ef1cf-d76f-4dbc-8c5c-1bed03b46cfe")
+	)
+	(fp_line
+		(start 7 4)
+		(end 0 4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f3f89a48-39d9-42c9-b530-f4c67e473d93")
+	)
+	(fp_line
+		(start 7 4)
+		(end 7 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "ce53a779-c0ac-455c-b9ba-6e7b09f4e3b7")
+	)
+	(fp_arc
+		(start -1.423833 0.007818)
+		(mid -2.132327 -2.505253)
+		(end 0 -4.012128)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "503961c7-ff0c-488a-b2d8-70dc299a1fdd")
+	)
+	(fp_arc
+		(start 0 4)
+		(mid -2.119246 2.505841)
+		(end -1.423833 0.007818)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f97f235f-90ff-41d8-bf12-f2a322687874")
+	)
+	(pad "1" thru_hole custom
+		(at 0 -1.8)
+		(size 4 4)
+		(drill 2.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 0)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.1 -1.9) (xy 6.8 -1.9) (xy 6.8 1.9) (xy 0 1.9)
+				)
+				(width 0.2)
+				(fill yes)
+			)
+		)
+		(uuid "b33233ba-bbed-4bf4-9696-d70bf6ee2548")
+	)
+	(pad "1" thru_hole custom
+		(at 0 1.8)
+		(size 4 4)
+		(drill 2.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 0)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.1 -1.9) (xy 6.8 -1.9) (xy 6.8 1.9) (xy 0 1.9)
+				)
+				(width 0.2)
+				(fill yes)
+			)
+		)
+		(uuid "8b89433e-9503-4088-80d4-12552a92ab30")
+	)
+)

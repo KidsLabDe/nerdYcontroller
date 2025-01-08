@@ -1,0 +1,141 @@
+(footprint "Edgeconnector"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -3.4 0 0)
+		(layer "F.SilkS")
+		(uuid "f9bcec5d-d337-40d8-a5d4-86a24a8d268e")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "Edgeconnector_SMD_version"
+		(at 0 -4 0)
+		(layer "F.Fab")
+		(uuid "fb93df6f-d49a-4cee-b232-3b2e2aea66ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "172f1019-d0f8-4a1f-a3c1-8426e0d55a8b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6911dcca-1c09-44f9-b5b1-a47e653120d1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0106eb73-5fd8-4f4d-9444-bf92eedefe91")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start 0 0)
+		(end 33 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "76c2e976-0a27-4538-9dad-4db5115c6aae")
+	)
+	(fp_line
+		(start 6.604 -2.25)
+		(end 0 -2.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "61026243-521f-44e9-845d-1d76a28238f5")
+	)
+	(fp_line
+		(start 6.604 -2.25)
+		(end 6.604 2.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "243ef1cf-d76f-4dbc-8c5c-1bed03b46cfe")
+	)
+	(fp_line
+		(start 6.604 2.25)
+		(end 0 2.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "7bd26fa1-aed4-4bce-9a91-755142d6731f")
+	)
+	(fp_arc
+		(start 0 2.25)
+		(mid -2.25 0)
+		(end 0 -2.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f0b78ee5-9e2d-4b53-81e9-db208defe159")
+	)
+	(pad "1" thru_hole custom
+		(at 0 0)
+		(size 4 4)
+		(drill 2.5)
+		(property pad_prop_castellated)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 6.5 2) (xy 0 2) (xy 0 -2) (xy 6.5 -2)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "3def26c2-08c6-4673-afb7-65ef6042041f")
+	)
+)

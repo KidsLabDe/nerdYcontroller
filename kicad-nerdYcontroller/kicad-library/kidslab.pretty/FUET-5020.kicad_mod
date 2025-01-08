@@ -1,0 +1,148 @@
+(footprint "FUET-5020"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.5 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0e6b145f-18cb-4fe5-9496-c468a2b4c96a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "FUET-5020"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b704a0df-2370-4d90-aa65-428367cc9192")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45790087-88cc-482c-93a7-a5df03051031")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "129b0217-9ecb-48ad-9cc0-76215b1768f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "20e5312f-712d-49ef-a7b7-3567512f08c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -2 0.75)
+		(end -1.646447 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "4fadbe9c-8718-442b-9b30-49fe41fafb59")
+	)
+	(fp_rect
+		(start -2.6 -2.6)
+		(end 2.6 2.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "39082c37-3762-42d7-97eb-d8a51ef624cf")
+	)
+	(fp_circle
+		(center -2 0.75)
+		(end -1.646447 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "ef7b2ec8-aba6-4c86-b7bc-e32d44d5674a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "46f34a6b-3e6b-4815-bf1d-942c1587d4a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.75 1.75)
+		(size 1.5 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "45170b9f-046a-41f0-85b1-7fc2bae82d3b")
+	)
+	(pad "2" smd rect
+		(at 1.75 1.75)
+		(size 1.5 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "27a9ea03-06aa-4fcf-9105-509cb78ddd46")
+	)
+	(pad "3" smd rect
+		(at -1.75 -1.75)
+		(size 1.5 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "ce7fb18b-0533-4830-a280-093335871fd2")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Buzzer_Beeper.3dshapes/MagneticBuzzer_Kobitone_254-EMB84Q-RO.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.6 0.6 0.5)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

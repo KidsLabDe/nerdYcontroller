@@ -1,0 +1,146 @@
+(footprint "ZX-HY2.0-4PLT"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "693f26f8-027c-4873-b4bf-ed9f521cca27")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "ZX-HY2.0-4PLT"
+		(at 0 -2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d732bb91-7433-4e79-ba37-7d5d7a1c457d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "678f7516-bc78-4e6f-b622-647996c9a521")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa86bc60-5292-45d2-84be-da005748dcf6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ad39033-f0b2-4c76-82e2-2300d0dccbc3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -6.5 -4.925)
+		(end 6.5 1.925)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "ca22d9f2-0952-4846-bf42-2100bf430268")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fa811e57-3de5-4dca-b08c-8b6b157de127")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3 0)
+		(size 1.5 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "6eddec1b-b4a4-4fbe-a6d8-c91323fe05d8")
+	)
+	(pad "2" smd rect
+		(at -1 0)
+		(size 1.5 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "15074990-90d0-49df-b760-c710e2048a13")
+	)
+	(pad "3" smd rect
+		(at 1 0)
+		(size 1.5 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "51d80b01-b9ea-46ed-8681-653828f41f25")
+	)
+	(pad "4" smd rect
+		(at 3 0)
+		(size 1.5 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "09ac5881-4044-4d58-9f2a-698834468915")
+	)
+	(pad "MP" smd rect
+		(at -5.35 -3)
+		(size 1.6 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "50a67777-25a8-4c77-a2b7-4f37e6413f01")
+	)
+	(pad "MP" smd rect
+		(at 5.35 -3)
+		(size 1.6 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "13448f3e-351b-49c7-9ca8-872294b4425d")
+	)
+	(model "${KIPRJMOD}/kicad-library/kidslab.pretty/Grove Connector.STEP"
+		(offset
+			(xyz -5 0 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
